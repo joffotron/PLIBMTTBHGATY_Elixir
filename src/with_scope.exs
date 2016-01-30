@@ -9,3 +9,25 @@ end
 
 IO.puts lp #=> Group: 26, User: 26
 IO.puts content # the 'with' expression creates a scope
+
+
+values = [0, 1, 1, 2, 3, 5, 8]
+
+IO.puts with count = Enum.count(values),
+  sum = Enum.sum(values),
+  do: sum/count
+
+IO.puts( with count = Enum.count(values),
+  sum = Enum.sum(values)
+  do
+    sum/count
+  end
+  )
+
+IO.puts ( with(
+  count = Enum.count(values),
+  sum = Enum.sum(values)
+  do
+    sum/count
+  end)
+)
