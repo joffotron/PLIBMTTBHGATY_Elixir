@@ -1,6 +1,6 @@
 defmodule MetroSucks do
 
-	@alamein 		%{ name: 'Alemein', 	  stations: ['Flinders Street','Richmond','East Richmond','Burnley','Hawthorn','Glenferrie'] }
+	@alamein 	%{ name: 'Alemein', 	  stations: ['Flinders Street','Richmond','East Richmond','Burnley','Hawthorn','Glenferrie'] }
 	@sandringham 	%{ name: 'Sandringham',   stations: ['Southern Cross','Richmond','South Yarra','Prahran','Windsor'] }
 	@glen_waverley 	%{ name: 'Glen Waverley', stations: ['Flagstaff','Melbourne Central','Parliament','Richmond','Kooyong','Tooronga'] }
 	
